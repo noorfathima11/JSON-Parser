@@ -1,6 +1,6 @@
 let fs = require('fs')
 
-fs.readFile('./parseJSONData/allTestCases.json', 'utf-8', function (err, data) {
+fs.readFile('./parseJSONData/twitter.json', 'utf-8', function (err, data) {
   if (err) return console.log(err)
   console.log('final', valueParser(data.toString()))
 })

@@ -1,0 +1,1 @@
+To run use command ```node factory-parser.js```
